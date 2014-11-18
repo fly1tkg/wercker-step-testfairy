@@ -1,5 +1,5 @@
 name: testfairy
-version: 0.0.6
+version: 0.0.7
 description: A wercker step to deploy to TestFairy
 keywords:
   - android
