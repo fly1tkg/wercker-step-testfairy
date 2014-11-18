@@ -62,7 +62,7 @@ deploy_to_testfairy() {
         PROGUARD_FILE_OPTION="-F proguard_file=@$WERCKER_TESTFAIRY_PROGUARD_FILE"
     fi
 
-    curl --tlsv1.2 https://app.testfairy.com/api/upload/ \
+    curl --tlsv1 https://app.testfairy.com/api/upload/ \
         -F api_key="$WERCKER_TESTFAIRY_API_KEY" \
         -F apk_file=@"$WERCKER_TESTFAIRY_APK_FILE" \
         -F testers_groups="$WERCKER_TESTFAIRY_TESTERS_GROUPS" \
