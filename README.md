@@ -4,6 +4,12 @@ A wercker step to deploy to Testfairy
 
 [![wercker status](https://app.wercker.com/status/0e8139b4dbc92af6b9e3b573025face2/m "wercker status")](https://app.wercker.com/project/bykey/0e8139b4dbc92af6b9e3b573025face2)
 
+## Release note
+
+### 0.0.6
+
+Use TLSv1 to connect to the TestFairy Apis. Thanks [@fredjean](https://github.com/fredjean)
+
 ## Options
 
 ### required
