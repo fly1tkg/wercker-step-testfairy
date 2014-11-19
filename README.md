@@ -2,6 +2,8 @@
 
 A wercker step to deploy to Testfairy
 
+[![wercker status](https://app.wercker.com/status/0e8139b4dbc92af6b9e3b573025face2/m "wercker status")](https://app.wercker.com/project/bykey/0e8139b4dbc92af6b9e3b573025face2)
+
 ## Options
 
 ### required
